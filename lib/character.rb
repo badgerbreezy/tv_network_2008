@@ -5,6 +5,4 @@ class Character
     @actor = actor
     @salary = salary
   end
-
-
 end

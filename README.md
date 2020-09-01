@@ -1,14 +1,13 @@
 # TV Network
 
+## Instructions
 
-## Instructions 
-
-* Fork this Repository
-* Clone your forked repo to your computer.
-* Complete the activity below.
-* Push your solution to your forked repo
-* Submit a pull request from your repository to this repository
-  * Put your name in your PR!
+-   Fork this Repository
+-   Clone your forked repo to your computer.
+-   Complete the activity below.
+-   Push your solution to your forked repo
+-   Submit a pull request from your repository to this repository
+    -   Put your name in your PR!
 
 ## Iteration 1
 
@@ -68,8 +67,6 @@ pry(main)> knight_rider.highest_paid_actor
 
 pry(main)> knight_rider.actors
 # => ["David Hasselhoff", "William Daniels"]
-
-
 ```
 
 ## Iteration 3
@@ -190,5 +187,4 @@ pry(main)> nbc.shows_by_actor
 
 pry(main)> nbc.prolific_actors
 # => ["David Hasselhoff"]
-
 ```

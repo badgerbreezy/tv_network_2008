@@ -13,8 +13,14 @@ class Network
     main_char = shows.map do |show|
       show.characters
     end
-    return main_char.flatten
+    main_char.flatten
   end
 
-
+  def actors_by_show
+    actors_shows = {}
+    actors = shows.map do |show|
+      show.actors
+    end
+    actors_shows[@shows] = Show.new(@actors)
+  end
 end
